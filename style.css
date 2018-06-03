@@ -1,8 +1,7 @@
 *{
   padding: 0;
   margin: 0;
-  font-family: 'Roboto Condensed', 'Raleway','Padauk', sans-serif;
-
+  font-family: sans-serif;
   box-sizing: border-box;
 }
 
@@ -51,7 +50,6 @@ header,
   margin-top: 20%;
   margin-left: 36%;
   width: 30%;
-  font-family: "Roboto Condensed";
   color: rgba(130,98,75, 0.8);
   text-shadow: 2px 1px #CFB8A8;
   font-weight: 100;
