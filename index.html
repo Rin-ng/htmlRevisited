@@ -2,113 +2,100 @@
   <html>
   <head>
    <title>A Cup of Joe's</title>
-    
     <link href="https://fonts.googleapis.com/css?family=Padauk:400,700|Raleway:400,400i,600,700,900|Roboto+Condensed:400,400i,700" rel="stylesheet">
     <link href="./style.css" type="text/css" rel="stylesheet" />
-    <div>
-      <header >
-          <!-- <div class="parallax" id="home"> -->
-        <h1 class="intro">Joe's Cup of Joe</h1>
-            <!-- </div> -->
-      </header>
-    </div>
-    <nav class="main-nav">
-      <ul>
-        <a href="#"><li>Home</li></a>
-        <a href="#about"><li>About</li></a>
-        <a href="#reservation"><li>Reservation</li></a>
-        <a href="#info"><li>Info</li></a>
-      </ul>
-    </nav>
   </head>
   
   <body>
-    
-   <div class="main">
-    <!--Coffee stuff -->
-    <div class="row" >
-      <div class="column1 left1" style="background-image: url('./img/sidePic1.jpg'); background-size: cover;"> </div>
-      <div class="column1 right1 box"  id="about" style="background-color:rgb(29, 28, 27);">
-        <h2>A New Way of Drinking </h2>
-        <p> 
-          Coffee is more than a beverage: it is a memory, an anticipation, a lifetime of consoling moments of modest pleasure woven into our lives.
-          It is also a very labor intensive process involving a vast intercontinental collaboration that starts with the coffee grower,  to the picker, 
-          then to the mill workers who meticulously remove the fruit and dry the beans, then to those who clean and grade the beans, to those who roast them, and finally to our coffee shop where we select only the very best beans. 
-          It is the cumulative quality of all of these creative contributions that together make the difference between a lackluster cup and a fine and distinctive one.
+    <header>
+      <h1 class="intro">Joe's Cup of Joe</h1>
+    </header>
+    <nav class="main-nav">
+        <a href="#">Home</a>
+        <a href="#about">About</a>
+        <a href="#reservation">Reservation</a>
+        <a href="#info">Info</a>
+    </nav>
+    <div class="main">
+      <!--Coffee stuff -->
+      <div class="row" >
+        <div class="column1 left1" style="background-image: url('./img/sidePic1.jpg'); background-size: cover;"> </div>
+        <div class="column1 right1 box"  id="about" style="background-color:rgb(29, 28, 27);">
+          <h2>A New Way of Drinking </h2>
+          <p> 
+            Coffee is more than a beverage: it is a memory, an anticipation, a lifetime of consoling moments of modest pleasure woven into our lives.
+            It is also a very labor intensive process involving a vast intercontinental collaboration that starts with the coffee grower,  to the picker, 
+            then to the mill workers who meticulously remove the fruit and dry the beans, then to those who clean and grade the beans, to those who roast them, and finally to our coffee shop where we select only the very best beans. 
+            It is the cumulative quality of all of these creative contributions that together make the difference between a lackluster cup and a fine and distinctive one.
+          </p>
+        </div>
+      </div>
+
+      <!--Reservations-->
+      <div class="reservation" id="reservation">
+        <h1>RESERVATIONS</h1>
+        <p>
+          WE’RE NOT TRYING TO BE COOL BUT SADLY <br>
+          THERE ARE ONLY SO MUCH SEATS IN OUR CAFE AND THEY FILL UP QUICKLY.<br>
+          IF YOU WANT IN, MAKE A RESERVATION TODAY.
         </p>
       </div>
-    </div>
+      
+      <!-- Half and Quarter Boxes -->
+      <div class="row" id="info">
+        <div class="column2 half" style="background-color:rgb(17, 17, 17);">
+          <h2>Announcing Our New Location At: </h2>
+          <p>some random new place</p>
+        </div>
 
-    <!--Reservations-->
-    <div class="reservation" id="reservation">
-      <h1>RESERVATIONS</h1>
-      <p>
-        WE’RE NOT TRYING TO BE COOL BUT SADLY <br>
-        THERE ARE ONLY SO MUCH SEATS IN OUR CAFE AND THEY FILL UP QUICKLY.<br>
-        IF YOU WANT IN, MAKE A RESERVATION TODAY.
-      </p>
-    </div>
-    
-    <!-- Half and Quarter Boxes -->
-    <div class="row" id="info">
-      <div class="column2 half" style="background-color:rgb(17, 17, 17);">
-        <h2>Announcing Our New Location At: </h2>
-        <p>some random new place</p>
+        <div class="column2 half" style="background-color:rgb(29, 28, 27);">
+          <h2>Introducing Our New Specials</h2>
+          <p>Special ice cream flavors:</p>
+          <ul>
+            <li><span>Paopu Fruit</span> - for those who wants their destinies to be entertwined forever</li>
+            <li><span>Sea-salt flavor</span> - for those who wants to support the capitalism of a rich duck</li>
+            <li><span>Watermelon</span> - for a boring person</li>
+          </ul>
+        </div>
       </div>
 
-      <div class="column2 half" style="background-color:rgb(29, 28, 27);">
-        <h2>Introducing Our New Specials</h2>
-        <p>Special ice cream flavors:</p>
-        <ul>
-          <li><span>Paopu Fruit</span> - for those who wants their destinies to be entertwined forever</li>
-          <li><span>Sea-salt flavor</span> - for those who wants to support the capitalism of a rich duck</li>
-          <li><span>Watermelon</span> - for a boring person</li>
-        </ul>
-      </div>
-    </div>
 
-
-    <div class="row">
-     <div class="column2 quarter" style="background-color:rgb(29, 28, 27);">
+      <div class="row">
+       <div class="column2 quarter" style="background-color:rgb(29, 28, 27);">
         <div class="pic">
-          <img src="./img/coffee.jpeg" onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0">
+          <img src="./img/coffee.jpeg" alt="coffee"  onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0">
         </div>
         <p>Some text..</p>
       </div>
 
       <div class="column2 quarter" style="background-color:rgb(17, 17, 17);">
         <div class="pic">
-          <img src="./img/student.jpg" onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0">
+          <img src="./img/student.jpg" alt="student"  onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0">
         </div>
         <p>Some text..</p>
       </div>
 
       <div class="column2 quarter" style="background-color:rgb(29, 28, 27);">
         <div class="pic">
-          <img src="./img/bakery.jpg" onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0">
+          <img src="./img/bakery.jpg" alt="bakery"  onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0">
         </div>
         <p>Some text..</p>
       </div>
 
       <div class="column2 quarter" style="background-color:rgb(17, 17, 17);">
         <div class="pic">
-          <img src="./img/social.jpeg" onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0">
+          <img src="./img/social.jpeg" alt="social" onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0">
         </div>  
         <p>Some text..</p>
       </div>
     </div>
     <button onclick="topFunction()" id="myBtn" title="Go to top">↑</button>
     <div class="bottom"></div>
-  </div>
   </body>
-
-
-
   <script
   src="https://code.jquery.com/jquery-3.3.1.min.js"
   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
   crossorigin="anonymous"></script>
 
   <script src="script.js"></script> 
-  
 </html>
